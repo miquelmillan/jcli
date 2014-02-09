@@ -38,7 +38,7 @@ public class BasicCommandLineInterface {
 
 			if (line.hasOption("help")) {
 				HelpFormatter formatter = new HelpFormatter();
-				formatter.printHelp("dur-pass-generator", options);
+				formatter.printHelp("text-help", options);
 			} else {
 				String parameter = line.getOptionValue("param");
 
